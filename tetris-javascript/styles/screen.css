@@ -1,0 +1,24 @@
+body { margin: 2em; background: #ddd; font: 14px Helvetica, Arial, sans-serif; }
+    #field { margin: 0; padding: 0; -webkit-box-shadow: 0 3px 10px #bbb; -moz-box-shadow: 0 3px 10px #bbb; background: white; border: solid 3px white; list-style: none; float: left; }
+    #field li { background: white; float: left; }
+    
+    #field .on { background: url(../images/pieces.png); }
+    
+    #field .cyan { background-position: 0 0; }
+    #field .pink { background-position: -20px 0; }
+    #field .blue { background-position: -40px 0; }
+    #field .red { background-position: -60px 0; }
+    #field .purple { background-position: -80px 0; }
+    #field .yellow { background-position: -100px 0; }
+    #field .green { background-position: -120px 0; }
+
+    #log { margin: 1em; position: fixed; top: 0; right: 0; font: 14px Helvetica }
+
+	h1 { font-size: 24px; color: #666; position: absolute; left: 21em; }
+
+    dl { padding-top: 1.3em; line-height: 1.5; color: #666; }
+        dt { width: 8em; margin-left: 1.8em; font-weight: bold; float: left; }
+
+	p { margin: 0 0 0 1.8em; float: left; }
+		a { font-weight: bold; text-decoration: none; color: #666; }
+		a:hover { color: #444; }

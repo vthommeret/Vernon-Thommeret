@@ -1,0 +1,30 @@
+RewriteEngine on
+
+# rewrite rules
+
+RewriteRule ^$ logic/index.php
+
+RewriteRule ^register/$ logic/register.php
+RewriteRule ^confirm/([a-z0-9]*)/$ logic/confirm.php?confirm_code=$1
+
+RewriteRule ^login/$ logic/login.php
+RewriteRule ^logout/$ logic/logout.php
+
+RewriteRule ^login/reset/$ logic/reset.php
+
+RewriteRule ^message/([0-9]+)/$ logic/message.php?to_id=$1
+
+RewriteRule ^add_someone/$ logic/add_someone.php
+
+RewriteRule ^faq/$ logic/faq.php
+
+# error documents
+
+ErrorDocument 401 /logic/errors/401.php
+ErrorDocument 404 /logic/errors/404.php
+ErrorDocument 500 /logic/errors/500.php
+
+# suppress php errors
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off

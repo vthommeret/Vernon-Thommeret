@@ -1,0 +1,42 @@
+body { width: 65em; margin: 2.7em; background: #fffaef; font: 13px Helvetica, Arial, sans-serif; font-weight: bold; line-height: 1.5; }
+    #body { width: 47em; padding: 0 0 3em; float: left; }
+        #who-you-want, #who-want-you { width: 23em; float: left; }
+        #who-you-want { margin: 0 1em 0 0; position: relative; }
+            #who-you-want a, #who-want-you a { font-size: 11px; text-decoration: none; }
+        #body ol { font-weight: normal; list-style: inside decimal; }
+            #body li { margin: 0 0 .1em; }
+            #body .match { font-weight: bold; color: #ff007e; }
+    #nav { margin: 0 0 3em 6em; float: left; }
+        #nav ul, #nav dl { margin: 0 0 .5em; }
+        #nav p { padding: 1em 0; clear: left; }
+
+    h1, h2, p, ul, ol, dl, dt, dd, form, textarea, input { margin: 0; padding: 0; }
+    h1 { width: 95px; height: 23px; margin: 5em 0 .7em; background: url(/images/wescam.png); text-indent: -10000px; }
+        h1 a { width: 100%; height: 100%; display: block; }
+        h1 a:hover { background: transparent; }
+    h2 { margin: 0 0 .5em; font-size: 19px; }
+    h3 { margin: 0 0 .3em; font-size: 15px; }
+    ul { list-style: none; }
+        li span { font-weight: normal; }
+    dt { width: 1.75em; margin: 0 .25em 0 0; float: left; clear: left; display: block; }
+    dd { font-weight: normal; float: left; display: block; }
+    p { margin: 0 0 .5em; }
+        p span { font-weight: normal; }
+    a { font-weight: bold; color: #000; }
+    a:hover { background: #ffe400; }
+    input { margin: 0 0 0 .3em; }
+
+    .text { margin: 0; padding: .3em; background: #fffaef; border: solid 1px #000; }
+    .text:focus { outline: none; }
+    form span { margin: 0 .5em 0 0; }
+    form .disabled { opacity: .3; }
+    textarea { width: 100%; height: 6em; padding: .5em; background: #fffaef; border: solid 1px #000; }
+    textarea:focus { outline: none; }
+
+    .error { color: #ff002a; }
+
+    #message { width: 20em; }
+        #message input { margin: .2em 0 1em; display: block; float: right; position: relative; left: 1em; }
+
+    #load { position: relative; top: .25em; display: none; }
+    #doubleBuffer { position: relative; left: -50000px; }

@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'Meetup' target in the 'Meetup' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define kHomeTab	0
+#define kGroupsTab	1
+#define kSearchTab	2
+#define kMoreTab	3
+
+#define kTopBarHeight	44.0
+#define kTabBarHeight	49.0
+
+#define kService	@"http://api.meetup.com/"
+#define kApiKey		@"removed" // normal account
+
+#define kKeyFontSize		13.0
+#define kRowSeparatorGray	213.0 / 255.0
+#define kRowPhotoSize		64.0
+
+#define kShortDate		@"EEE, LLLL d"
+#define kLongDate		@"EEEE LLLL d\nh:mm a"
+#define kDatabaseDate	@"EEE MMM d HH:mm:ss zzz yyyy"
