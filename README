@@ -1,3 +1,21 @@
-All the sample code listed in this repository is written by Vernon Thommeret
-and is listed strictly for demonstration purposes and can't be used for any
-other purpose.
+All the sample code listed in this repository is written by Vernon Thommeret and
+is listed strictly for demonstration purposes and can't be used for any other
+purpose.
+
+tetris-js:
+        A version of Tetris created in JavaScript, modeled after Quinn. Not for
+        sale or distribution. A playable version is available here:
+        http://thommeret.com/portfolio/web/tetris/
+
+wescam-php
+        A site for college seniors to meet up with other college seniors.
+        Written using a very loose "framework" that takes care of prepared
+        statements and sessions.
+
+meetup-obj-c
+        A client application that uses Meetup's API to allow access to a user's
+        groups and events. Also allows searching and managing RSVPs. A
+        derivative version of the application was eventually released by Meetup
+        and open-sourced.
+
+All code, unless otherwise noted, is copyright of Vernon Thommeret, 2010.
